@@ -1,2 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+.grid-stack {
+    background: lightgoldenrodyellow;
+}
+
+.grid-stack-item-content {
+    color: #2c3e50;
+    text-align: center;
+    background-color: #18bc9c;
+}
+.grid-stack-animate {
+    transition: left 0.3s, top 0.3s, height 0.3s, width 0.3s;    
+}
+
+.maximum-widget {
+    position: fixed;
+    height: 100% !important;
+    width: 100% !important;
+    top: 0 !important;
+    left: 0px !important;
+    z-index: 100;
+}
+i {
+   cursor: pointer;
+}
+.maximum-widget .grid-stack-item-content {
+    left: 0px !important;
+    right: 0px !important;
+}

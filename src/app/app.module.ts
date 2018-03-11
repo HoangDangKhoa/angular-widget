@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import {MatIconModule} from '@angular/material/icon';
 import { MaximumWidgetDirective } from './maximum-widget.directive';
 import { WidgetComponent } from './widget-component/widget.component';
-
+import { GridStackModule } from 'ng4-gridstack';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,8 @@ import { WidgetComponent } from './widget-component/widget.component';
   ],
   imports: [
     BrowserModule,
-    Ng2SmartTableModule
+    Ng2SmartTableModule,
+    GridStackModule
   ],
   providers: [],
   bootstrap: [AppComponent]
